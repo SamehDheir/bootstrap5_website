@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Mary's simple recipe for maple bacon donuts
+           makes a sticky, sweet treat with just a hint
+           of salt that you'll keep coming back for."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <link
@@ -10,6 +16,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -44,16 +52,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Find a doctor</a>
+              <a class="nav-link" href="#services">Find a doctor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Apps</a>
+              <a class="nav-link" href="#providers">Apps</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#saying">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#article">About us</a>
             </li>
           </ul>
         </div>
@@ -66,15 +74,27 @@
       <div class="container">
         <div class="row g-5 align-items-center">
           <div class="col-md-5">
-            <h2>Virtual healthcare for you</h2>
-            <p>
-              Trafalgar provides progressive, and affordable healthcare,
-              accessible on mobile and online for everyone
-            </p>
-            <button>Consult today</button>
+            <div
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="fade-right"
+            >
+              <h2>Virtual healthcare for you</h2>
+              <p>
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone
+              </p>
+              <button>Consult today</button>
+            </div>
           </div>
           <div class="col-md-7">
-            <img src="image/trafalgar-header illustration 1 (1).png" alt="" />
+            <img
+              src="image/trafalgar1.png"
+              alt=""
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="fade-left"
+            />
           </div>
         </div>
       </div>
@@ -82,7 +102,7 @@
     <!-- End Section Hero -->
 
     <!-- Start Section Services -->
-    <section class="services">
+    <section class="services" id="services">
       <h2>Our services</h2>
       <hr />
       <p>
@@ -95,7 +115,12 @@
       <div class="container">
         <div class="row g-4">
           <div class="col-md-6 col-lg-4">
-            <div class="child-services">
+            <div
+              class="child-services"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="fade-up-right"
+            >
               <img src="image/Frame.png" alt="" />
               <h3>Search doctor</h3>
               <p>
@@ -105,7 +130,12 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="child-services">
+            <div
+              class="child-services"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="flip-left"
+            >
               <img src="image/Frame2.png" alt="" />
               <h3>Search doctor</h3>
               <p>
@@ -115,7 +145,12 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="child-services">
+            <div
+              class="child-services"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="fade-up-left"
+            >
               <img src="image/Frame3.png" alt="" />
               <h3>Search doctor</h3>
               <p>
@@ -124,7 +159,12 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos="fade-up-right"
+          >
             <div class="child-services">
               <img src="image/Frame4.png" alt="" />
               <h3>Search doctor</h3>
@@ -134,7 +174,12 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos="flip-left"
+          >
             <div class="child-services">
               <img src="image/Frame5.png" alt="" />
               <h3>Search doctor</h3>
@@ -144,7 +189,12 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos="fade-up-left"
+          >
             <div class="child-services">
               <img src="image/Frame6.png" alt="" />
               <h3>Search doctor</h3>
@@ -155,7 +205,13 @@
             </div>
           </div>
           <div class="col-md-12 text-center">
-            <button>Learn More</button>
+            <button
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-in-right"
+            >
+              Learn More
+            </button>
           </div>
         </div>
       </div>
@@ -163,22 +219,34 @@
     <!-- End Section Services -->
 
     <!-- Start Section Providers -->
-    <section class="providers">
+    <section class="providers" id="providers">
       <div class="container">
         <div class="row g-4 align-items-center">
           <div class="col-md-5 col-lg-5">
-            <img src="image/trafalgar-illustration sec02 1.png" alt="" />
+            <img
+              src="image/trafalgar1.png"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-out-up"
+              alt=""
+            />
           </div>
           <div class="col-md-1 col-lg-1"></div>
           <div class="col-md-6 col-lg-6">
-            <h2>Leading healthcare providers</h2>
-            <hr />
-            <p>
-              Trafalgar provides progressive, and affordable healthcare,
-              accessible on mobile and online for everyone. To us, it’s not just
-              work. We take pride in the solutions we deliver
-            </p>
-            <button>Learn more</button>
+            <div
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-out-up"
+            >
+              <h2>Leading healthcare providers</h2>
+              <hr />
+              <p>
+                Trafalgar provides progressive, and affordable healthcare,
+                accessible on mobile and online for everyone. To us, it’s not
+                just work. We take pride in the solutions we deliver
+              </p>
+              <button>Learn more</button>
+            </div>
           </div>
         </div>
       </div>
@@ -186,23 +254,35 @@
     <!-- End Section Providers -->
 
     <!-- Start Section Apps -->
-    <section class="apps">
+    <section class="apps" id="apps">
       <div class="container">
         <div class="row g-4 align-items-center">
           <div class="col-md-6 col-lg-6">
-            <h2>Download our mobile apps</h2>
-            <hr />
-            <p>
-              Our dedicated patient engagement app and web portal allow you to
-              access information instantaneously (no tedeous form, long calls,
-              or administrative hassle) and securely
-            </p>
-            <button>
-              Download <i class="fa-solid fa-arrow-down-long"></i>
-            </button>
+            <div
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="fade-up-right"
+            >
+              <h2>Download our mobile apps</h2>
+              <hr />
+              <p>
+                Our dedicated patient engagement app and web portal allow you to
+                access information instantaneously (no tedeous form, long calls,
+                or administrative hassle) and securely
+              </p>
+              <button>
+                Download <i class="fa-solid fa-arrow-down-long"></i>
+              </button>
+            </div>
           </div>
           <div class="col-md-6 col-lg-6">
-            <img src="image/trafalgar-illustration sec02 1.png" alt="" />
+            <img
+              src="image/trafalgar2.png"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="fade-up-left"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -210,8 +290,13 @@
     <!-- End Section Apps -->
 
     <!-- Start Section saying -->
-    <section class="saying">
-      <div class="container">
+    <section class="saying" id="saying">
+      <div
+        class="container"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos="flip-left"
+      >
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -305,13 +390,18 @@
     <!-- End Section saying -->
 
     <!-- Start Section article -->
-    <section class="article">
+    <section class="article" id="article">
       <h2>Check out our latest article</h2>
       <hr />
       <div class="container">
         <div class="row g-4">
           <div class="col-md-6 col-lg-4">
-            <div class="card shadow-lg">
+            <div
+              class="card shadow-lg"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-in"
+            >
               <img src="image/Mask Group1.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
@@ -328,7 +418,12 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <div class="card shadow-lg">
+            <div
+              class="card shadow-lg"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-in-up"
+            >
               <img src="image/Mask Group2.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">
@@ -345,7 +440,12 @@
             </div>
           </div>
           <div class="col-md-8 col-lg-4 mx-auto">
-            <div class="card shadow-lg">
+            <div
+              class="card shadow-lg"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              data-aos="zoom-in-down"
+            >
               <img src="image/Mask Group3.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Natural care for healthy facial skin</h5>
@@ -371,8 +471,8 @@
     <!-- Start Footer -->
     <footer>
       <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-md-6 col-sm-6">
+        <div class="row g-4">
+          <div class="col-md-6 col-sm-8">
             <h2>
               <img src="image/Ellipse 8.png" alt="" /> <span>T</span> Trafalgar
             </h2>
@@ -382,7 +482,7 @@
             </p>
             <p>©Trafalgar PTY LTD 2022. All rights reserved</p>
           </div>
-          <div class="col-md-2 col-sm-6">
+          <div class="col-md-2 col-sm-3 col-6">
             <h3>Company</h3>
             <ul>
               <li>
@@ -399,7 +499,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-2 col-sm-6">
+          <div class="col-md-2 col-sm-8 col-6">
             <h3>Region</h3>
             <ul>
               <li>
@@ -416,7 +516,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-2 col-sm-6">
+          <div class="col-md-2 col-sm-3 col-6">
             <h3>Help</h3>
             <ul>
               <li>
@@ -442,5 +542,9 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

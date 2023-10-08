@@ -450,9 +450,33 @@ footer p {
   margin: 20px 0;
   font-weight: 300;
 }
-footer p:nth-child(1) {
+footer p:nth-child(2) {
   font-size: 18px;
 }
-footer p:nth-child(1) {
+footer p:nth-child(3) {
   font-size: 16px;
+}
+footer h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  line-height: 38px;
+}
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+footer ul li a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+@media (max-width: 992px) {
+  footer p {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

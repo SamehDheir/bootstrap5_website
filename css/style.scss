@@ -546,12 +546,45 @@ footer {
     line-height: 28px;
     margin: 20px 0;
     font-weight: 300;
-    &:nth-child(1) {
+    &:nth-child(2) {
       font-size: 18px;
     }
-    &:nth-child(1) {
+    &:nth-child(3) {
       font-size: 16px;
     }
   }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    line-height: 38px;
+
+    li {
+      a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 300;
+
+        &:hover {
+          border-bottom:1px solid #ffffff;
+        }
+      }
+    }
+  }
 }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+  footer {
+    p {
+      width: 100%;
+    }
+  }
+ }
 // End Footer

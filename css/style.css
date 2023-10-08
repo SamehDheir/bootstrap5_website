@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .navbar {
   padding: 20px 0;
 }
@@ -95,6 +91,11 @@ body {
   font-size: 18px;
   font-weight: 700;
   background-color: white;
+  transition: 0.5s;
+}
+.services button:hover {
+  background-color: #458ff6;
+  color: white;
 }
 
 .providers {
@@ -132,6 +133,11 @@ body {
   font-size: 18px;
   font-weight: 700;
   background-color: white;
+  transition: 0.5s;
+}
+.providers button:hover {
+  background-color: #458ff6;
+  color: white;
 }
 
 @media (max-width: 991.98px) {
@@ -197,11 +203,16 @@ body {
   font-size: 18px;
   font-weight: 700;
   background-color: white;
+  transition: 0.5s;
 }
 .apps button .fa-arrow-down-long {
   width: 15.43px;
   height: 15.82px;
   color: #458ff6;
+}
+.apps button:hover {
+  background-color: #458ff6;
+  color: white;
 }
 
 @media (max-width: 991.98px) {
@@ -231,4 +242,217 @@ body {
   .apps button {
     font-size: 16px;
   }
+}
+.saying {
+  margin: 80px 100px;
+  height: 100%;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  padding: 50px 100px;
+  border-radius: 24px;
+}
+.saying h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+.saying hr {
+  width: 56px;
+  height: 2px;
+  border-radius: 6px;
+  color: #ffffff;
+  margin: 20px auto;
+  margin-bottom: 70px;
+  opacity: 1;
+}
+.saying img {
+  width: 100%;
+}
+.saying h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.saying h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.saying p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+}
+.saying .carousel-control-prev {
+  left: -100px;
+}
+.saying .carousel-control-next {
+  right: -100px;
+}
+
+@media (max-width: 1399.98px) {
+  .saying {
+    margin: 80px 20px;
+  }
+  .saying img {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .saying {
+    margin: 80px 20px;
+  }
+  .saying img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  .saying img {
+    height: 200px;
+    width: 200px;
+  }
+  .saying p {
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .saying {
+    padding: 50px;
+  }
+  .saying h2 {
+    font-size: 30px;
+  }
+  .saying img {
+    height: 100%;
+    width: 100%;
+  }
+  .saying .carousel-control-prev {
+    left: -50px;
+  }
+  .saying .carousel-control-next {
+    right: -50px;
+  }
+}
+@media (max-width: 575.98px) {
+  .saying {
+    padding: 50px 10px;
+  }
+  .saying h2 {
+    font-size: 23px;
+  }
+  .saying h3 {
+    font-size: 17px;
+  }
+  .saying h4 {
+    font-size: 15px;
+  }
+  .saying p {
+    font-size: 13px;
+  }
+  .saying .carousel-control-prev {
+    left: -30px;
+  }
+  .saying .carousel-control-next {
+    right: -30px;
+  }
+}
+.article {
+  padding: 80px 0;
+}
+.article h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.article hr {
+  width: 56px;
+  height: 2px;
+  border-radius: 6px;
+  color: #000000;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  opacity: 1;
+}
+.article .card {
+  height: 100%;
+  border-radius: 24px;
+  padding-bottom: 15px;
+}
+.article .card img {
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+.article .card h5 {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.article .card p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #7d7987;
+  height: 70px;
+}
+.article .card button {
+  font-size: 17px;
+  color: #458ff6;
+  text-decoration: none;
+  padding: 0;
+  border-radius: 0;
+}
+.article .card button .fa-arrow-right-long {
+  margin-left: 10px;
+}
+.article .card button:hover {
+  border-bottom: 1px solid #458ff6;
+}
+.article .view-btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  color: #458ff6;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: white;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.article .view-btn:hover {
+  background-color: #458ff6;
+  color: white;
+}
+
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 80px 0;
+  color: #ffffff;
+}
+footer h2 {
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 30px;
+}
+footer h2 span {
+  position: absolute;
+  left: 13px;
+  top: 6px;
+  color: #5b9bf3;
+}
+footer p {
+  width: 391px;
+  line-height: 28px;
+  margin: 20px 0;
+  font-weight: 300;
+}
+footer p:nth-child(1) {
+  font-size: 18px;
+}
+footer p:nth-child(1) {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
